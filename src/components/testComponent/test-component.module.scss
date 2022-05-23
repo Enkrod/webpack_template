@@ -1,0 +1,9 @@
+$color: #c00 !default;
+
+@mixin test-component() {
+  background-color: $color;
+}
+
+%test {
+  font-size: larger;
+}

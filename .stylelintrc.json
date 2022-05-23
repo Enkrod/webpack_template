@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "max-line-length": null,
+    "no-eol-whitespace": null,
+    "at-rule-empty-line-before":  null,
+    "declaration-empty-line-before": null,
+    "function-calc-no-unspaced-operator": null,
+    "scss/at-import-partial-extension": null,
+    "scss/at-extend-no-missing-placeholder": null,
+    "scss/double-slash-comment-empty-line-before": null,
+    "scss/dollar-variable-empty-line-before": null,
+    "selector-id-pattern": null,
+    "selector-class-pattern": null,
+    "selector-pseudo-class-no-unknown": [true, {
+      "ignorePseudoClasses": ["global", "export", "import", "local"]
+    }]
+  }
+}

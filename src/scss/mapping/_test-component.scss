@@ -1,0 +1,11 @@
+@use "/src/scss/utils/utils" as u;
+
+@use "/src/components/testComponent/test-component.module" as tc with (
+  $color: u.$color
+);
+
+div {
+  @include tc.test-component;
+
+
+}

@@ -1,0 +1,6 @@
+src/scss/utils/images/*.scss
+src/scss/themes/_admin.scss
+src/scss/components/_breadcrumb.scss
+src/scss/vendors/*
+sass/*
+css/*
